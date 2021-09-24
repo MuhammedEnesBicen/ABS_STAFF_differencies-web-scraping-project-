@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1200</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>370</y>
+     <width>581</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;DejaVu Sans&quot;;color:rgb(174,0,0)</string>
+   </property>
+   <property name="text">
+    <string>Sing in or create a new account</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ph_loginPage">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>470</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Login In</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ph_createAccountPage">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>560</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Create A New Account</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ph_parserPage">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>650</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Compare Website's Data</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="img_firat">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>20</y>
+     <width>391</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ph_who">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>740</y>
+     <width>271</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Get Data From Internet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>250</y>
+     <width>881</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>DejaVu Sans</family>
+     <pointsize>36</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;DejaVu Sans&quot;; color:rgb(174,0,0)</string>
+   </property>
+   <property name="text">
+    <string>Bilgi İşlem Daire Başkanlığı</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

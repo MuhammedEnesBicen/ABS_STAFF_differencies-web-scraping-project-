@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1266</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>231</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 30pt &quot;DejaVu Sans&quot;; color:rgb(174,0,0)</string>
+   </property>
+   <property name="text">
+    <string>Abs Api</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>10</y>
+     <width>231</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 30pt &quot;DejaVu Sans&quot;; color:rgb(174,0,0)</string>
+   </property>
+   <property name="text">
+    <string>Staff Api</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ph_display">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>130</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Display</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ph_difference">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>130</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Difference</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableAbs">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>270</y>
+     <width>651</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Avatar</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Unvan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>İsim</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Birim</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="ph_errors">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>130</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:20px;
+font: 12pt &quot;DejaVu Sans&quot;;color:rgb(255, 255, 255);
+background-color:rgb(174,0,0);</string>
+   </property>
+   <property name="text">
+    <string>Errors</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_birim">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>231</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_bolum">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>140</y>
+     <width>231</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableStaff">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>270</y>
+     <width>881</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 8pt &quot;DejaVu Sans&quot;;</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Unvan</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>İsim</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Birim</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Dahili</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
