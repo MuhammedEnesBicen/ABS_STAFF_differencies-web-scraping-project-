@@ -5,3 +5,11 @@ In this project, with the help of the selenium and requests libraries, I shoot t
 <video src='https://www.youtube.com/watch?v=3dCCb8QulaY' width=180/>
 
 https://www.youtube.com/watch?v=3dCCb8QulaY
+
+<object width="425" height="350">
+  <param name="movie" value="https://www.youtube.com/watch?v=3dCCb8QulaY" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/watch?v=3dCCb8QulaY"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
