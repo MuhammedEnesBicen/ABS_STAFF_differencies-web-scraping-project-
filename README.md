@@ -7,6 +7,8 @@ In this project, with the help of the selenium and requests libraries, I shoot t
 https://www.youtube.com/watch?v=3dCCb8QulaY
 
 
+Make sure you have installed the libraries for the program to run, fill in the mail and password sections in the mailSender class, and make sure that webdriver is installed on your computer for the selenium library to work.
+
 
 
 
