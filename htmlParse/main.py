@@ -6,7 +6,7 @@ import time
 
 
 from bs4 import BeautifulSoup
-from obspy.core.util.attribdict import AttribDict
+#from obspy.core.util.attribdict import AttribDict
 
 class GetDataFromInternet() :
 
@@ -24,8 +24,8 @@ class GetDataFromInternet() :
 
         self.domain = "https://abs.firat.edu.tr/arama/birimler.html"
         self.personeller = []
-        self.birimler = AttribDict()
-        self.bolumler = AttribDict()
+        self.birimler = dict()
+        self.bolumler = dict()
         self.clearDatabase()
 
     def personelParse(self,url):
@@ -81,7 +81,7 @@ class GetDataFromInternet() :
 
         tbody = table.find_all("tbody")
         bolumler = tbody[0].find_all("tr")
-        self.bolumler = AttribDict()
+        self.bolumler = dict()
 
         for i in bolumler:
             a = i.find("a")
